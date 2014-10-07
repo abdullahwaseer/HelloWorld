@@ -19,6 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)testingGit
+{
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
