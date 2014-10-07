@@ -19,9 +19,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
 -(void)someFucntion
 {
     NSLog(@"%s",__PRETTY_FUNCTION__);
+}
+- (void)testingGit
+{
+    NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 
 - (void)didReceiveMemoryWarning {
